@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/africab/public_html/
+    - export DEPLOYPATH=/home/cfnarsh/public_html/
     - /bin/cp -r * $DEPLOYPATH
