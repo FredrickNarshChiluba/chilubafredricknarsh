@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/africab/public_html/
+    - /bin/cp -r * $DEPLOYPATH
